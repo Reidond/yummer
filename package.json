@@ -6,10 +6,13 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "tauri:build": "vue-cli-service tauri:build",
+    "tauri:serve": "vue-cli-service tauri:serve"
   },
   "dependencies": {
     "@mdi/font": "^3.6.95",
+    "@tauri-apps/tauri-webpack": "^0.1.4",
     "core-js": "^3.4.3",
     "roboto-fontface": "*",
     "vue": "^2.6.10",
@@ -40,6 +43,7 @@
     "sass": "^1.23.7",
     "sass-loader": "^8.0.0",
     "typescript": "~3.5.3",
+    "vue-cli-plugin-tauri": "^0.0.2",
     "vue-cli-plugin-vuetify": "^2.0.2",
     "vue-template-compiler": "^2.6.10",
     "vuetify-loader": "^1.3.0"

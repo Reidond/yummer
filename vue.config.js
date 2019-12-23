@@ -6,5 +6,8 @@ module.exports = {
         vuetify$: "vuetify/lib"
       }
     }
+  },
+  chainWebpack: config => {
+    require("@tauri-apps/tauri-webpack").chain(config);
   }
 };
