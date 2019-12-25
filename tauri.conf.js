@@ -19,7 +19,9 @@ module.exports = function() {
         all: true
       },
       window: {
-        title: "Yummer"
+        title: "Yummer",
+        width: 800,
+        height: 480
       },
       security: {
         csp:
